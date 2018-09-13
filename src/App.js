@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
-
-import WordCard from './WordCard';
-
+import CharacterCard from './CharacterCard';
+const word = "Hello";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
-      <center><WordCard value="hello"/></center>
-
-      </div>
+      <div><center>
+        {
+          Array.from(word).map((c, i) => <CharacterCard value={c} key={i} />)
+        }
+      </center></div>
     );
   }
 }
