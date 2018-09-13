@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WordCard from './WordCard';
-const word = "BENZZ";
+const word = "PISIT";
 class App extends Component {
   render() {
     return (
