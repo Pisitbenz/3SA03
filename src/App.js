@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
-import CharacterCard from './CharacterCard';
+
+import WordCard from './WordCard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CharacterCard value="hello" />
-        <CharacterCard value="Pisit" />
+
+      <center><WordCard value="hello"/></center>
 
       </div>
     );
